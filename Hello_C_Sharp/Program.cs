@@ -13,6 +13,10 @@ namespace Hello_C_Sharp
      {
           static void Main(string[] args)
           {
+               Console.WriteLine("Hello C#");
+               Console.WriteLine(args.Length);
+               Console.WriteLine("Usage : " + args[0] + "!!");
+               Console.ReadKey();
           }
      }
 }
